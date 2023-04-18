@@ -13,8 +13,6 @@ public class SumOfOddNumbers_09 {
             System.out.println(number);
             sum += number;
             number += 2;
-
-
         }
 
         System.out.printf("Sum: %d", sum);
