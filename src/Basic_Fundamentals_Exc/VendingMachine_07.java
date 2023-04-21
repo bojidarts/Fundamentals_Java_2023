@@ -24,19 +24,14 @@ public class VendingMachine_07 {
         while (!input.equals("End")) {
             if (input.equals("Nuts")) {
                 priceProduct = 2.0;
-
             } else if (input.equals("Water")) {
                 priceProduct = 0.7;
-
             } else if (input.equals("Crisps")) {
                 priceProduct = 1.5;
-
             } else if (input.equals("Soda")) {
                 priceProduct = 0.8;
-
             } else if (input.equals("Coke")) {
                 priceProduct = 1.0;
-
             } else {
                 System.out.println("Invalid product");
                 input = scanner.nextLine();
